@@ -3,3 +3,10 @@
 int main(){
   // code ...
 }
+// در شروع برنامه و فایل و به این صورت رفتار میکنیم 
+#include <iostream>
+// و داخل این برنامه رفتار میکنیم 
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
