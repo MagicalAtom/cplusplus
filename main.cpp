@@ -10,3 +10,25 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
+
+// برای چاپ مقدار برای مثال
+
+std::cout << "Hello World in Github" << std::endl;
+
+// یا برای مثال 
+
+put("Hello World in Github");
+
+// برای اینکه به شیوه ای راحت تر از مورد چاپ استاده کنیم اول نیم اسپیس رو یوز میکنیم 
+using namespace std;
+
+// حالا مجدد برای چاپ 
+cout << "Hello World without std" << endl;
+
+
+
+
+
+
+
+
