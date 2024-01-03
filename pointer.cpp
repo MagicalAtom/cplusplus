@@ -42,3 +42,28 @@ int main(){
 
     std::cout << "Hello World " << *clone;
 }
+
+
+
+
+
+
+/////// ======================================
+#include <iostream>
+using namespace std;
+
+
+int main(){
+    string name;
+    string* clone1 = &name;
+    string* clone2 = &name;
+
+    cout << "Please insert your bot name : ";
+    cin >> name;
+    cout << "This is Clone 1 ==> " << *clone1;
+    cout << "and" << endl;
+    cout << "This is Clone 2 ==> " << *clone2;
+    cout << "and" << endl;
+    puts("Welcome to new world");
+}
+
